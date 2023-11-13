@@ -49,7 +49,7 @@ import { LightningElement, wire, api, track} from 'lwc';
         strFirstName;
         strLastName;
         strEmail;
-        strPhone;
+        strPhone;  
 
         @track showText = false;
         showHandler() {

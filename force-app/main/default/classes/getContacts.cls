@@ -14,7 +14,7 @@ public with sharing class getContacts {
        query = query + ' LIMIT 1000';
        return Database.query( query );
    }
-
+  
    @AuraEnabled
   public static void updateRecords(String recordsJson) {
     try {
